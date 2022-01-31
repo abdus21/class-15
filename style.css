@@ -1,0 +1,81 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.bg{
+    background-color: rgb(248, 248, 248);
+}
+.main-div{
+    background: url(./img/download.png)no-repeat;
+    width: 400px;
+    height: 400px;
+    margin: 80px auto 40px;
+    background-size:  100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 1, 1);
+    border-radius: 50%;
+}
+
+.main-div::after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.s{
+    height: 284px;
+    display: flex;
+    justify-content: center;
+}
+
+.s::after{
+    content: "";
+    width: 5px;
+    height: 170px;
+    background-color: #666;
+    position: absolute;
+}
+.m{
+    width: 0;
+    height: 234px;
+    display: flex;
+    justify-content: center;
+}
+.m::after{
+    content: "";
+    width: 8px;
+    height: 140px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+}
+.h{
+    width: 0;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+
+}
+.h::after{
+    content: "";
+    width: 10px;
+    height: 120px;
+    background-color: rgb(180, 49, 49);
+    position: absolute;
+    border-radius: 50px 50px 0 0;
+}
+
+.ss{
+
+    width: 50px;
+    height: 50px;
+    background: url(./img/Screenshot_1.png);
+}
