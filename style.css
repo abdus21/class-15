@@ -73,9 +73,117 @@ img{
     border-radius: 50px 50px 0 0;
 }
 
+.clock{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(199, 97, 97);
+    background: url(./img/download\ \(1\).png) no-repeat;
+    background-size: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* .clock::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: rgb(20, 20, 20);
+    border-radius: 50%;
+} */
 .ss{
 
-    width: 50px;
-    height: 50px;
-    background: url(./img/Screenshot_1.png);
+    width: 0px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.ss::after{
+    content: "";
+    width: 165px;
+    height: 182px;
+    background: url(./img/screenshot_1.png) no-repeat;
+    background-size: 8% 94%;
+    position: absolute;
+    left: -6px;
+    top: -17px;
+
+}
+.mm{
+    width: 0px;
+    height: 139px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.mm::after{
+    content: "";
+    width: 195px;
+    height: 139px;
+    background: url(./img/Screenshot_2.png) no-repeat;
+    background-size: 9% 80%;
+    position: absolute;
+    left: -9px;
+    top: -31px;
+}
+.hh{
+    width: 0px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.hh::after{
+    content: "";
+    width: 306px;
+    height: 139px;
+    background: url(./img/Screenshot_4.png) no-repeat;
+    background-size: 10% 85%;
+    position: absolute;
+    left: -15px;
+    top: -3px;
+    
+}
+.cal{
+    width: 350px;
+    overflow: hidden;
+    margin: 100px auto 0;
+    border-radius: 10px;
+}
+.monitor{
+    height: 130px;
+    border-radius:7px 7px 0 0;
+    background-color: #000;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+}
+.monitor-top{
+    font-size: 26px;
+}
+.main-monitor{
+    font-weight: 400;
+    font-size: 50px;
+}
+.buttons{
+
+    overflow: hidden;
+}
+.buttons button{
+    width: 25%;
+    border: none;
+    float: left;
+    padding: 30px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.buttons button:hover{
+    background-color: #ccc;
 }
