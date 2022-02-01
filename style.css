@@ -76,7 +76,6 @@ img{
 .clock{
     width: 400px;
     height: 400px;
-    background-color: rgb(199, 97, 97);
     background: url(./img/download\ \(1\).png) no-repeat;
     background-size: 100%;
     border-radius: 50%;
@@ -107,7 +106,7 @@ img{
     content: "";
     width: 165px;
     height: 182px;
-    background: url(./img/screenshot_1.png) no-repeat;
+    background: url(./img/Screenshot_1.png) no-repeat;
     background-size: 8% 94%;
     position: absolute;
     left: -6px;
