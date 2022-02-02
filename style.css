@@ -159,10 +159,11 @@ img{
 .monitor{
     height: 130px;
     border-radius:7px 7px 0 0;
-    background-color: #000;
+    background-color: #151a20;
     color: #fff;
     text-align: right;
     padding: 10px;
+    margin-bottom: 1px;
 }
 .monitor-top{
     font-size: 26px;
@@ -171,17 +172,45 @@ img{
     font-weight: 400;
     font-size: 50px;
 }
+
+.green_color{
+    background-color: #005db2;
+    color: #fff;
+}
+.green_color:hover{
+    background-color: #3b7cb9 !important;
+}
 .buttons{
 
     overflow: hidden;
 }
+.black_color{
+    background-color: #2f3036;
+    color: #005db2;
+}
+.black_color:hover{
+    background-color: #37383b !important;
+    color: #005db2;
+}
+.some_black{
+    background-color: #5f6060;
+    color: #fff;
+}
+.some_black:hover{
+    background-color: #767979 !important;
+    color: #fff;
+}
 .buttons button{
-    width: 25%;
+    width: 23%;
     border: none;
     float: left;
     padding: 30px;
     font-weight: 900;
     font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+    margin-right: 3.5px;
+    margin-left: 3.5px;
 }
 .buttons button:hover{
     background-color: #ccc;
