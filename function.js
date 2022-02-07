@@ -12,7 +12,7 @@ function msh(time,current){
 
 
 /**
- * function for analogue clock
+ * function for calculator
  * @param {*} value 
  */
 let resive;
